@@ -1,6 +1,6 @@
 const mongoose = require("mongoose");
 
-// const URI= "mongodb+srv://SeeRT:Sujeet123@shopnest-admin.0n1apqh.mongodb.net/ShopNest?retryWrites=true&w=majority";
+
 const URI = process.env.MONGODB_URI;
 
 const connectDb = async () => {
